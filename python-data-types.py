@@ -1,5 +1,8 @@
-# string data type
+# string data type including f string acts like backticks in typescript allows us to add variables in the string
 name:str="hassan raza"
+counting:int=23
+ali:str = f"my name is ali raza {name} {counting}"
+print(ali)
 
 # number data type
 num1:int =23
