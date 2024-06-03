@@ -44,7 +44,7 @@ print(result5)
 
 
 
-# is is aslo comparison operator
+# "is" idetity operator
 equal="Hassan Raza"
 res=equal is userName; res1=equal is not userName
 print(res); print(res1)
