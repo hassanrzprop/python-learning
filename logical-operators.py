@@ -30,7 +30,6 @@ result3=num2>num1 or num1>num2
 print(result3)
 
 # ***not***    reverses the operation of the result
-
 result4= (num1+2>num2 and num2<= 2 or num1**num2)
 print(result4, " expression test")
 
@@ -40,3 +39,12 @@ userName="Hassan Raza"
 locate="s"
 result5=locate in userName; result6= locate not in userName
 print(result5)
+
+
+
+
+
+# is is aslo comparison operator
+equal="Hassan Raza"
+res=equal is userName; res1=equal is not userName
+print(res); print(res1)
