@@ -18,3 +18,22 @@ def addition(a,b,c=3):
     addRes=a+b+c
     print(addRes)
 addition(5,10,5)    
+
+
+# using return
+def sum(a,b):
+    c= a +b 
+    # print(locals())   **to see locals data
+    return c;
+# without return type it will show none to c variable because data won't let go.
+result =sum(10,10)
+print(result)
+addaToAdd=sum(result,20)
+print(addaToAdd)
+# print(globals())  to see globals data
+
+# write a program that takes two number as input and return there sum
+num1= int(input("Enter First Number -->"))
+num2= int(input("Enter Second Number -->"))
+res=num1 + num2 ;
+print(res)
