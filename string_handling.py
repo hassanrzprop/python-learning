@@ -86,4 +86,36 @@ print(cName.replace("ali","hassan"))
 
 # 14) split is used to change string into list on the basis of delimit(means by giving on which basis it will split.By default it is set for spacing)
 splitUsing=cName.split("a")
-print(splitUsing)
+print(splitUsing)   
+
+
+
+
+# 15)List to string using "join" method
+namee=["muhammad","hassan","raza"]
+fullName=" ".join(namee).title()
+print(fullName)
+
+
+
+# 16) Checking prefix(anything with which it is starting any charcter) with startwith and suffix(any character) endswith
+print(fullName.startswith("M"))
+
+print(fullName.endswith("a"))
+
+
+
+
+# 17)checking aphlabet,digit and spacing
+clas="first year"
+print(clas.isalpha())
+print(clas.isdigit())
+print(clas.isspace()) 
+
+
+
+# 18) format to add something
+name1="raza"
+name2="iqbal"
+bigName="hassan {} s/o muhammad zafar {}".format(name1,name2).title()
+print(bigName)
