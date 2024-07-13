@@ -1,0 +1,4 @@
+this a text written by python file using file 
+handlingthis a text written by python file using file 
+handlingthis a text written by python file using file 
+handling
